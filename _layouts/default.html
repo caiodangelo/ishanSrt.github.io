@@ -98,6 +98,26 @@
         <span class="tooltiptext">github.com/ishanSrt</span>
         </div>
 
+        <!-- Gitlab icon -->
+        <div class="tooltip">
+          <span class="my-span-icon">
+            <a href="https://gitlab.com/{{ site.github.owner_url }}" aria-label="{{ site.github.owner_name }}'s GitLab">
+              <svg width="24" height="24" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>tanuki</title><path d="M7.118 5h1.764l1.045-2.09a1.2 1.2 0 0 1 2.146 0l2.821 5.643a1 1 0 0 1-.254 1.215l-5.68 4.733a1.5 1.5 0 0 1-1.92 0L1.36 9.768a1 1 0 0 1-.254-1.215l2.82-5.642a1.2 1.2 0 0 1 2.147 0L7.118 5zm3.276 1.447A1 1 0 0 1 9.5 7h-3a1 1 0 0 1-.894-.553L5 5.237l-1.645 3.29a.3.3 0 0 0 .076.364l4.377 3.647a.3.3 0 0 0 .384 0l4.377-3.647a.3.3 0 0 0 .076-.365L11 5.236l-.606 1.211zM6.5 10a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm3 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1z"/></svg>
+            </a>
+          </span>
+          <span class="tooltiptext">gitlab.com/ishanSrt</span>
+          </div>
+
+        <!-- Openhub icon -->
+        <div class="tooltip">
+          <span class="my-span-icon">
+            <a href="https://www.openhub.net/XXXX" aria-label="{{ site.github.owner_name }}'s Open Hub">
+              <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/></svg>
+            </a>
+          </span>
+          <span class="tooltiptext">.openhub.net/XXXX</span>
+          </div>
+
         <!-- Twitter icon -->
         <div class="tooltip">
           <span class="my-span-icon">
@@ -108,20 +128,7 @@
           <span class="tooltiptext">twitter.com/ishan_srt</span>
         </div>
 
-        <!-- Mail icon -->
-        {% assign about_page = site.pages | where: "path", "contact.md" | first %}
-        {% if about_page.title %}
-        <div class="tooltip">
-          <span class="my-span-icon">
-            <a href="mailto:ishan.srt@gmail.com" aria-label="Contact">
-              <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
-            </a>
-          </span>
-          <span class="tooltiptext">ishan.srt@gmail.com</span>
-        </div>
-        {% endif %}
-
-        <!-- Facebook icon
+        <!-- Facebook icon -->
         <div class="tooltip">
           <span class="my-span-icon">
             <a href="https://facebook.com/ishan.srivastava.507" aria-label="https://facebook.com/ishan.srivastava.507">
@@ -165,7 +172,8 @@
         -->
 
 
-        <!-- Instagram icon         <div class="tooltip">
+        <!-- Instagram icon -->
+        <div class="tooltip">
           <span class="my-span-icon">
             <a href="https://instagram.com/ishansrt" aria-label="https://facebook.com/ishan.srivastava.507">
               <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
@@ -173,23 +181,6 @@
           </span>
           <span class="tooltiptext">instagram.com/ishansrt</span>
         </div>
-        -->
-
-
-
-        <!-- Contact icon -->
-        {% assign about_page = site.pages | where: "path", "contact.md" | first %}
-        {% if about_page.title %}
-        <div class="tooltip">
-          <span class="my-span-icon">
-            <a href="{{ about_page.url | relative_url }}" aria-label="Contact">
-              <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z"/></svg>
-            </a>
-          </span>
-          <span class="tooltiptext">dowhatucant.com/contact</span>
-        </div>
-        {% endif %}
-
 
         <!-- RSS icon -->
         {% if site.plugins contains "jekyll-feed" %}
@@ -200,18 +191,6 @@
               </a>
             </span>
             <span class="tooltiptext">RSS Feed</span>
-          </div>
-        {% endif %}
-
-        <!-- RSS icon -->
-        {% if site.plugins contains "jekyll-feed" %}
-          <div class="tooltip">
-            <span class="my-span-icon">
-              <a href="{{ "/gsoc.xml" | relative_url }}" aria-label="RSS feed">
-                <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-3.374 17c-.897 0-1.626-.727-1.626-1.624s.729-1.624 1.626-1.624 1.626.727 1.626 1.624-.729 1.624-1.626 1.624zm3.885 0c-.03-3.022-2.485-5.474-5.511-5.504v-2.406c4.361.03 7.889 3.555 7.92 7.91h-2.409zm4.081 0c-.016-5.297-4.303-9.571-9.592-9.594v-2.406c6.623.023 11.985 5.384 12 12h-2.408z"/></svg>
-              </a>
-            </span>
-            <span class="tooltiptext">GSoC Feed</span>
           </div>
         {% endif %}
 
